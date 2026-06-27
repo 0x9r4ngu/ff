@@ -6,32 +6,27 @@ Built on top of [fzf](https://github.com/junegunn/fzf), [fd](https://github.com/
 
 ## Install
 
-1. Install the dependencies.
+One command:
 
-   Debian / Kali / Ubuntu:
-   ```sh
-   sudo apt install fzf fd-find bat
-   ```
+```sh
+curl -fsSL https://raw.githubusercontent.com/0x9r4ngu/ff/main/install.sh | sh
+```
 
-   macOS:
-   ```sh
-   brew install fzf fd bat
-   ```
+Then reload your shell:
 
-2. Get the function.
-   ```sh
-   git clone https://github.com/0x9r4ngu/ff.git ~/.ff
-   ```
+```sh
+source ~/.zshrc
+```
 
-3. Source it from your shell config.
-   ```sh
-   echo 'source ~/.ff/ff.zsh' >> ~/.zshrc
-   ```
+Make sure the dependencies are installed:
 
-4. Reload your shell.
-   ```sh
-   source ~/.zshrc
-   ```
+```sh
+# Debian / Kali / Ubuntu
+sudo apt install fzf fd-find bat
+
+# macOS
+brew install fzf fd bat
+```
 
 ## Usage
 
